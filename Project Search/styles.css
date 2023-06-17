@@ -1,0 +1,178 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: lightgray
+}
+.head {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.head #otherlinks {
+  margin-right: 30px;
+  display: flex;
+}
+.head #otherlinks a {
+  margin-left: 30px;
+  font-size: 12px;
+  font-weight: bold;
+  color:rgb(70, 70, 70);
+  text-decoration: none;
+}
+.head #otherlinks a:hover {
+  border-bottom: 1px solid rgb(70, 70, 70);
+}
+#main {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#main #inputs {
+  margin-top: 20px;
+  border: 1px solid;
+  height: 20px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  width: 550px;
+}
+#main #inputs input {
+  width: 100%;
+  border: none;
+  background-color: lightgray ;
+  box-shadow: none !important;
+  outline: none !important;
+  margin-left: 5px;
+  font-size: 12px;
+}
+#main #buttons {
+  display: flex;
+  justify-content: center;
+}
+#main #buttons input {
+color: azure;
+background-color: rgb(70, 70, 70);
+border: 1px solid black;
+border-radius: 2px;
+font-size: 12px;
+margin: 20px 5px;
+padding: 8px;
+text-align: center;
+cursor: pointer;
+}
+#main #buttons input:hover {
+  border-color:azure;
+  color: rgb(215, 251, 251);
+}
+.mainSearchLinklink {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content:flex-start;
+}
+.mainSearchLinklink a{
+  margin-left: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  color:azure;
+  text-decoration: none;
+
+}
+.advancedHeader {
+  border-bottom: 1px solid white;
+}
+.advancedHeader h3 {
+  color:orangered;
+  font-size: 20px;
+  margin: 30px 0 20px 50px;
+}
+.rows {
+  display: flex;
+  align-items: center;
+  max-width: 1150px;
+  min-width: 200px;
+  margin: 40px 0 0 40px;
+}
+.rows .fiWiBig {
+  font-size:16px;
+  min-width: 167px;
+  width: 16%;
+  font-weight: 600;
+  color: rgb(37, 34, 34);
+}
+.rows .toDoBig {
+  min-width: 167px;
+  width: 32%;
+  min-width: 16px;
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 60px;
+  color: rgb(37, 34, 34)
+}
+.rows .fiWi {
+  width: 200px;
+  font-size: 12px;
+}
+.rows .inp {
+  background-color: aqua;
+  min-width: 165px;
+  width: 50%;
+}
+.rows .inp input {
+  background-color: lightgray;
+  border-radius: 1px;
+  border: none;
+  border: 1px solid black;
+  font-size: 12px;
+  height: 25px;
+  padding: 1px 8px;
+  width: 100%;
+  background-color: lightgray ;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.rows .inp input:hover {
+  border-color: white;
+  background-color: white;
+}
+
+.rows .toDo {
+  width: 32%;
+  min-width: 16px;
+  font-size: 11px;
+  padding-left: 30px;
+}
+span {
+  font-family: monospace;
+  font-size: 11px;
+  white-space: pre;
+  color:grey
+}
+.rows .button {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+.button input {
+  color: azure;
+  background-color: rgb(70, 70, 70);
+  border: 1px solid black;
+  border-radius: 2px;
+  height: 30px;
+  min-width: 120px;
+  border-radius: 2px;
+  font-size: 11px;
+  font-weight: bold;
+}
+.button input:hover {
+  border-color:azure;
+  color: rgb(215, 251, 251);
+  cursor: pointer;
+}
